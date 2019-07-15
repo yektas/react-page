@@ -196,6 +196,7 @@ class Slate extends React.Component<SlateProps, SlateState> {
           // onBlur={this.onBlur}
           // onFocus={this.onFocus}
           value={editorState}
+          spellCheck=false
           plugins={plugins}
           onPaste={this.onPaste}
           placeholder={this.props.translations.placeholder}
